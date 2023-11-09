@@ -70,9 +70,9 @@ spec:
                     - pathType: Prefix
                       path: /{{.Release.Name}}(/|$)(.*)
                       backend:
-                         service: 
-                         name: {{.Release.Name}}-microservice-service 
-                         port: 
-                             number: 30201
+                            service: 
+                                name: {{.Release.Name}}-microservice-service 
+                                port: 
+                                    number: 30201
 
 
